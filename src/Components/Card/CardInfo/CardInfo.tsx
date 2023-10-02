@@ -147,6 +147,7 @@ function CardInfo(props: CardInfoProps) {
             <p>Date</p>
           </div>
           <input
+            placeholder="."
             type="date"
             defaultValue={cardValues.date}
             min={new Date().toISOString().substr(0, 10)}
@@ -201,6 +202,7 @@ function CardInfo(props: CardInfoProps) {
             {cardValues.tasks?.map((item) => (
               <div key={item.id} className="cardinfo-box-task-checkbox">
                 <input
+                  placeholder="."
                   type="checkbox"
                   defaultChecked={item.completed}
                   onChange={(event) =>

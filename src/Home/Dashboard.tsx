@@ -135,7 +135,7 @@ function Dashboard() {
   return (
     <div className="app">
       <div className="app-nav">
-        <h1>Trello Kanban Board</h1>
+        <h1>Todo list</h1>
       </div>
       <div className="app-boards-container">
         <div className="app-boards">
